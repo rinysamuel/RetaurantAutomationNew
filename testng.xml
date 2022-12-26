@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.Restaurant.Utilities.ListenersClass" />
+	</listeners>
+
+	<test thread-count="5" name="Test 1">
+		<parameter name="Browser" value="Edge"></parameter>
+		<classes>
+			<class name="com.Restaurant.Testcases.VerifyExpenseTest" />
+			<class name="com.Restaurant.Testcases.VerifyLanguageTest" />
+			<class name="com.Restaurant.Testcases.VerifyPeopleCustomerTest" />
+			<class name="com.Restaurant.Testcases.VerifyPeopleSupplierTest" />
+			<class name="com.Restaurant.Testcases.VerifyPeopleWaiterTest" />
+			<class name="com.Restaurant.Testcases.VerifyProductTest" />
+			<class name="com.Restaurant.Testcases.VerifyReportsTest" />
+			<class name="com.Restaurant.Testcases.VerifySalesTest" />
+			<class name="com.Restaurant.Testcases.VerifySettingTest" />
+			<class name="com.Restaurant.Testcases.VerifyStoresTest" />
+			<class name="com.Restaurant.Testcases.VerifyUserLoginTest" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

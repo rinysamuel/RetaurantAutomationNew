@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\rinys\Selenium workspace\RestaurantAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 2 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyExpenseTest" class="method navigator-link" hash-for-method="VerifyDeleteExpense">VerifyDeleteExpense</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyExpenseTest" class="method navigator-link" hash-for-method="VerifyEditExpense">VerifyEditExpense</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleSupplierTest" class="method navigator-link" hash-for-method="SupplierDelete">SupplierDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyExpenseTest" class="method navigator-link" hash-for-method="VerifyAddExpense">VerifyAddExpense</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyProductTest" class="method navigator-link" hash-for-method="VerifyAddProduct">VerifyAddProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyStoresTest" class="method navigator-link" hash-for-method="VerifyAddStore">VerifyAddStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleSupplierTest" class="method navigator-link" hash-for-method="VerifyAddSupplier">VerifyAddSupplier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifySettingTest" class="method navigator-link" hash-for-method="VerifyAddUser">VerifyAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifySettingTest" class="method navigator-link" hash-for-method="VerifyAddWarehouse">VerifyAddWarehouse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyProductTest" class="method navigator-link" hash-for-method="VerifyBarcode">VerifyBarcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyProductTest" class="method navigator-link" hash-for-method="VerifyDeleteProduct">VerifyDeleteProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyProductTest" class="method navigator-link" hash-for-method="VerifyEditProduct">VerifyEditProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleSupplierTest" class="method navigator-link" hash-for-method="VerifyEditSupplier">VerifyEditSupplier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyUserLoginTest" class="method navigator-link" hash-for-method="VerifyInvalidUserLogin(login, pasword)">VerifyInvalidUserLogin(login, pasword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyUserLoginTest" class="method navigator-link" hash-for-method="VerifyInvalidUserLogin(uname, password)">VerifyInvalidUserLogin(uname, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyUserLoginTest" class="method navigator-link" hash-for-method="VerifyInvalidUserLogin(admin, pwrod)">VerifyInvalidUserLogin(admin, pwrod)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyLanguageTest" class="method navigator-link" hash-for-method="VerifyLanguagePage">VerifyLanguagePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyUserLoginTest" class="method navigator-link" hash-for-method="VerifyLogout">VerifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyProductTest" class="method navigator-link" hash-for-method="VerifyProduct">VerifyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyReportsTest" class="method navigator-link" hash-for-method="VerifyReportPageClientStat">VerifyReportPageClientStat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyReportsTest" class="method navigator-link" hash-for-method="VerifyReportProductStat">VerifyReportProductStat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyReportsTest" class="method navigator-link" hash-for-method="VerifyReportStoreStat">VerifyReportStoreStat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifySalesTest" class="method navigator-link" hash-for-method="VerifySalesPage">VerifySalesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyUserLoginTest" class="method navigator-link" hash-for-method="VerifyUserLogin">VerifyUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleCustomerTest" class="method navigator-link" hash-for-method="VerifyWaiterAdd">VerifyWaiterAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleWaiterTest" class="method navigator-link" hash-for-method="VerifyWaiterAdd">VerifyWaiterAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleCustomerTest" class="method navigator-link" hash-for-method="WaiterDelete">WaiterDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleWaiterTest" class="method navigator-link" hash-for-method="WaiterDelete">WaiterDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyStoresTest" class="method navigator-link" hash-for-method="verifyStoreDelete">verifyStoreDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleCustomerTest" class="method navigator-link" hash-for-method="verifyeditcustomer">verifyeditcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyStoresTest" class="method navigator-link" hash-for-method="verifyeditstore">verifyeditstore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Restaurant.Testcases.VerifyPeopleWaiterTest" class="method navigator-link" hash-for-method="verifyeditwaiter">verifyeditwaiter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyExpenseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeleteExpense">
+                  </a> <!-- VerifyDeleteExpense -->
+                  <span class="method-name">VerifyDeleteExpense</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[@class=&apos;dataTables_empty&apos;]&quot;}
+  (Session info: MicrosoftEdge=108.0.1462.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [12261aafbfa0d7083e21d360eb1de0af, findElement {using=xpath, value=//td[@class=&apos;dataTables_empty&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:60150}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\rinys\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60150/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12261aafbfa0d7083e21d360eb1de0af
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
+	at com.Restaurant.Pageobjects.ExpensesPage.ConfirmDelete(ExpensesPage.java:160)
+	at com.Restaurant.Testcases.VerifyExpenseTest.VerifyDeleteExpense(VerifyExpenseTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditExpense">
+                  </a> <!-- VerifyEditExpense -->
+                  <span class="method-name">VerifyEditExpense</span>
+                  <div class="stack-trace">java.lang.AssertionError: Edit not success expected [true] but found [false]
+	at com.Restaurant.Testcases.VerifyExpenseTest.VerifyEditExpense(VerifyExpenseTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifySalesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySalesPage">
+                  </a> <!-- VerifySalesPage -->
+                  <span class="method-name">VerifySalesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyUserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidUserLogin(login, pasword)">
+                  </a> <!-- VerifyInvalidUserLogin(login, pasword) -->
+                  <span class="method-name">VerifyInvalidUserLogin</span>
+                  <span class="parameters">(login, pasword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidUserLogin(uname, password)">
+                  </a> <!-- VerifyInvalidUserLogin(uname, password) -->
+                  <span class="method-name">VerifyInvalidUserLogin</span>
+                  <span class="parameters">(uname, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidUserLogin(admin, pwrod)">
+                  </a> <!-- VerifyInvalidUserLogin(admin, pwrod) -->
+                  <span class="method-name">VerifyInvalidUserLogin</span>
+                  <span class="parameters">(admin, pwrod)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogout">
+                  </a> <!-- VerifyLogout -->
+                  <span class="method-name">VerifyLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLogin">
+                  </a> <!-- VerifyUserLogin -->
+                  <span class="method-name">VerifyUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyReportsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyReportPageClientStat">
+                  </a> <!-- VerifyReportPageClientStat -->
+                  <span class="method-name">VerifyReportPageClientStat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyReportProductStat">
+                  </a> <!-- VerifyReportProductStat -->
+                  <span class="method-name">VerifyReportProductStat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyReportStoreStat">
+                  </a> <!-- VerifyReportStoreStat -->
+                  <span class="method-name">VerifyReportStoreStat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyPeopleWaiterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyWaiterAdd">
+                  </a> <!-- VerifyWaiterAdd -->
+                  <span class="method-name">VerifyWaiterAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WaiterDelete">
+                  </a> <!-- WaiterDelete -->
+                  <span class="method-name">WaiterDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditwaiter">
+                  </a> <!-- verifyeditwaiter -->
+                  <span class="method-name">verifyeditwaiter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddProduct">
+                  </a> <!-- VerifyAddProduct -->
+                  <span class="method-name">VerifyAddProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBarcode">
+                  </a> <!-- VerifyBarcode -->
+                  <span class="method-name">VerifyBarcode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeleteProduct">
+                  </a> <!-- VerifyDeleteProduct -->
+                  <span class="method-name">VerifyDeleteProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditProduct">
+                  </a> <!-- VerifyEditProduct -->
+                  <span class="method-name">VerifyEditProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProduct">
+                  </a> <!-- VerifyProduct -->
+                  <span class="method-name">VerifyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyPeopleCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyWaiterAdd">
+                  </a> <!-- VerifyWaiterAdd -->
+                  <span class="method-name">VerifyWaiterAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WaiterDelete">
+                  </a> <!-- WaiterDelete -->
+                  <span class="method-name">WaiterDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditcustomer">
+                  </a> <!-- verifyeditcustomer -->
+                  <span class="method-name">verifyeditcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyExpenseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddExpense">
+                  </a> <!-- VerifyAddExpense -->
+                  <span class="method-name">VerifyAddExpense</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyLanguageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLanguagePage">
+                  </a> <!-- VerifyLanguagePage -->
+                  <span class="method-name">VerifyLanguagePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifySettingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddUser">
+                  </a> <!-- VerifyAddUser -->
+                  <span class="method-name">VerifyAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddWarehouse">
+                  </a> <!-- VerifyAddWarehouse -->
+                  <span class="method-name">VerifyAddWarehouse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyPeopleSupplierTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SupplierDelete">
+                  </a> <!-- SupplierDelete -->
+                  <span class="method-name">SupplierDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddSupplier">
+                  </a> <!-- VerifyAddSupplier -->
+                  <span class="method-name">VerifyAddSupplier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditSupplier">
+                  </a> <!-- VerifyEditSupplier -->
+                  <span class="method-name">VerifyEditSupplier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Restaurant.Testcases.VerifyStoresTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddStore">
+                  </a> <!-- VerifyAddStore -->
+                  <span class="method-name">VerifyAddStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStoreDelete">
+                  </a> <!-- verifyStoreDelete -->
+                  <span class="method-name">verifyStoreDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditstore">
+                  </a> <!-- verifyeditstore -->
+                  <span class="method-name">verifyeditstore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rinys\Selenium workspace\RestaurantAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.Restaurant.Utilities.ListenersClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 1&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyExpenseTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyLanguageTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyPeopleCustomerTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyPeopleSupplierTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyPeopleWaiterTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyProductTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyReportsTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifySalesTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifySettingTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyStoresTest&quot;/&gt;
+      &lt;class name=&quot;com.Restaurant.Testcases.VerifyUserLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test 1 (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Add</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyAddSupplier</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyWaiterAdd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'WaiterDelete')
+data.setCell(0, 2, 'com.Restaurant.Testcases.VerifyPeopleWaiterTest')
+data.setCell(0, 3, 48115);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'WaiterDelete')
+data.setCell(1, 2, 'com.Restaurant.Testcases.VerifyPeopleCustomerTest')
+data.setCell(1, 3, 48072);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SupplierDelete')
+data.setCell(2, 2, 'com.Restaurant.Testcases.VerifyPeopleSupplierTest')
+data.setCell(2, 3, 47754);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyDeleteProduct')
+data.setCell(3, 2, 'com.Restaurant.Testcases.VerifyProductTest')
+data.setCell(3, 3, 46699);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyEditExpense')
+data.setCell(4, 2, 'com.Restaurant.Testcases.VerifyExpenseTest')
+data.setCell(4, 3, 45462);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyDeleteExpense')
+data.setCell(5, 2, 'com.Restaurant.Testcases.VerifyExpenseTest')
+data.setCell(5, 3, 45235);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyStoreDelete')
+data.setCell(6, 2, 'com.Restaurant.Testcases.VerifyStoresTest')
+data.setCell(6, 3, 27662);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyReportStoreStat')
+data.setCell(7, 2, 'com.Restaurant.Testcases.VerifyReportsTest')
+data.setCell(7, 3, 26214);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyAddProduct')
+data.setCell(8, 2, 'com.Restaurant.Testcases.VerifyProductTest')
+data.setCell(8, 3, 12116);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyAddStore')
+data.setCell(9, 2, 'com.Restaurant.Testcases.VerifyStoresTest')
+data.setCell(9, 3, 11099);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyeditcustomer')
+data.setCell(10, 2, 'com.Restaurant.Testcases.VerifyPeopleCustomerTest')
+data.setCell(10, 3, 10710);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyeditwaiter')
+data.setCell(11, 2, 'com.Restaurant.Testcases.VerifyPeopleWaiterTest')
+data.setCell(11, 3, 10679);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyEditSupplier')
+data.setCell(12, 2, 'com.Restaurant.Testcases.VerifyPeopleSupplierTest')
+data.setCell(12, 3, 10562);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyWaiterAdd')
+data.setCell(13, 2, 'com.Restaurant.Testcases.VerifyPeopleWaiterTest')
+data.setCell(13, 3, 10527);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyeditstore')
+data.setCell(14, 2, 'com.Restaurant.Testcases.VerifyStoresTest')
+data.setCell(14, 3, 10413);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyWaiterAdd')
+data.setCell(15, 2, 'com.Restaurant.Testcases.VerifyPeopleCustomerTest')
+data.setCell(15, 3, 10172);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyEditProduct')
+data.setCell(16, 2, 'com.Restaurant.Testcases.VerifyProductTest')
+data.setCell(16, 3, 10117);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyAddSupplier')
+data.setCell(17, 2, 'com.Restaurant.Testcases.VerifyPeopleSupplierTest')
+data.setCell(17, 3, 9713);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyAddExpense')
+data.setCell(18, 2, 'com.Restaurant.Testcases.VerifyExpenseTest')
+data.setCell(18, 3, 9230);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyAddUser')
+data.setCell(19, 2, 'com.Restaurant.Testcases.VerifySettingTest')
+data.setCell(19, 3, 8317);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyLanguagePage')
+data.setCell(20, 2, 'com.Restaurant.Testcases.VerifyLanguageTest')
+data.setCell(20, 3, 8086);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifyAddWarehouse')
+data.setCell(21, 2, 'com.Restaurant.Testcases.VerifySettingTest')
+data.setCell(21, 3, 7988);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyProduct')
+data.setCell(22, 2, 'com.Restaurant.Testcases.VerifyProductTest')
+data.setCell(22, 3, 7480);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyBarcode')
+data.setCell(23, 2, 'com.Restaurant.Testcases.VerifyProductTest')
+data.setCell(23, 3, 7388);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyReportProductStat')
+data.setCell(24, 2, 'com.Restaurant.Testcases.VerifyReportsTest')
+data.setCell(24, 3, 6252);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifyReportPageClientStat')
+data.setCell(25, 2, 'com.Restaurant.Testcases.VerifyReportsTest')
+data.setCell(25, 3, 6192);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifySalesPage')
+data.setCell(26, 2, 'com.Restaurant.Testcases.VerifySalesTest')
+data.setCell(26, 3, 4799);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'VerifyLogout')
+data.setCell(27, 2, 'com.Restaurant.Testcases.VerifyUserLoginTest')
+data.setCell(27, 3, 4006);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'VerifyUserLogin')
+data.setCell(28, 2, 'com.Restaurant.Testcases.VerifyUserLoginTest')
+data.setCell(28, 3, 2837);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'VerifyInvalidUserLogin')
+data.setCell(29, 2, 'com.Restaurant.Testcases.VerifyUserLoginTest')
+data.setCell(29, 3, 741);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifyInvalidUserLogin')
+data.setCell(30, 2, 'com.Restaurant.Testcases.VerifyUserLoginTest')
+data.setCell(30, 3, 706);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifyInvalidUserLogin')
+data.setCell(31, 2, 'com.Restaurant.Testcases.VerifyUserLoginTest')
+data.setCell(31, 3, 689);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">30 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifySalesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyUserLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyReportsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyPeopleWaiterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyPeopleCustomerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifySettingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyLanguageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyPeopleSupplierTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Restaurant.Testcases.VerifyStoresTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AfterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyExpenseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">533 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddExpense</span>
+                <span class="method-start">9322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">18571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">18736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyDeleteExpense</span>
+                <span class="method-start">24569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">70037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">70182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyEditExpense</span>
+                <span class="method-start">75112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">120869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyLanguageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">121017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLanguagePage</span>
+                <span class="method-start">126010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">134098 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyPeopleCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">134230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyWaiterAdd</span>
+                <span class="method-start">139350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">149530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">150064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeditcustomer</span>
+                <span class="method-start">155107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">165817 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">165935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WaiterDelete</span>
+                <span class="method-start">170734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">218806 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyPeopleSupplierTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">218951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddSupplier</span>
+                <span class="method-start">223801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">233514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">234019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditSupplier</span>
+                <span class="method-start">238993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">249555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">249695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SupplierDelete</span>
+                <span class="method-start">254394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">302148 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyPeopleWaiterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">302296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyWaiterAdd</span>
+                <span class="method-start">306888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">317415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">317940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeditwaiter</span>
+                <span class="method-start">322651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">333338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">333467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WaiterDelete</span>
+                <span class="method-start">338408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">386525 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">386678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddProduct</span>
+                <span class="method-start">391415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">403531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">403880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditProduct</span>
+                <span class="method-start">408757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">418874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">419025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeleteProduct</span>
+                <span class="method-start">423791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">470490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">470612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyProduct</span>
+                <span class="method-start">475095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">482575 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">482713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyBarcode</span>
+                <span class="method-start">487374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">494762 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">494898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyReportPageClientStat</span>
+                <span class="method-start">499658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">505850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">506091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyReportProductStat</span>
+                <span class="method-start">510803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">517055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">517376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyReportStoreStat</span>
+                <span class="method-start">522311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">548525 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifySalesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">548840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySalesPage</span>
+                <span class="method-start">553375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">558174 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifySettingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">558297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddUser</span>
+                <span class="method-start">563093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">571418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">571570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddWarehouse</span>
+                <span class="method-start">576215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">584203 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyStoresTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">584334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddStore</span>
+                <span class="method-start">589229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">600328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">600877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeditstore</span>
+                <span class="method-start">605370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">615784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">615914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStoreDelete</span>
+                <span class="method-start">620705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">648367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyUserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">648515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogout</span>
+                <span class="method-start">653263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">657269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">657390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLogin</span>
+                <span class="method-start">661949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">664786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">664888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidUserLogin(uname, password)</span>
+                <span class="method-start">669454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">670164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">670290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidUserLogin(admin, pwrod)</span>
+                <span class="method-start">674743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">675437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">firstcall(Edge)</span>
+                <span class="method-start">681081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidUserLogin(login, pasword)</span>
+                <span class="method-start">686084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethods</span>
+                <span class="method-start">686827 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Restaurant.Testcases.VerifyExpenseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuite</span>
+                <span class="method-start">687009 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

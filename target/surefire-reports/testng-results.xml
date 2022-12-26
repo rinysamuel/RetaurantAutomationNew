@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T08:43:53 IST" name="Suite" finished-at="2022-12-14T08:45:15 IST" duration-ms="82058">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T08:43:53 IST" name="Test" finished-at="2022-12-14T08:45:15 IST" duration-ms="82058">
+      <class name="com.Restaurant.Testcases.VerifyUserLoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:43:53 IST" name="beforeSuite" finished-at="2022-12-14T08:43:53 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:43:53 IST" name="loadConfig" finished-at="2022-12-14T08:43:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:43:53 IST" name="launchApp" finished-at="2022-12-14T08:44:01 IST" duration-ms="7979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:01 IST" name="VerifyInvalidUserLogin" data-provider="InvalidLoginDatas" finished-at="2022-12-14T08:44:02 IST" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:02 IST" name="AfterMethods" finished-at="2022-12-14T08:44:07 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:07 IST" name="launchApp" finished-at="2022-12-14T08:44:13 IST" duration-ms="5790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:13 IST" name="VerifyInvalidUserLogin" data-provider="InvalidLoginDatas" finished-at="2022-12-14T08:44:14 IST" duration-ms="811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwrod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:14 IST" name="AfterMethods" finished-at="2022-12-14T08:44:19 IST" duration-ms="5210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:19 IST" name="launchApp" finished-at="2022-12-14T08:44:25 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:25 IST" name="VerifyInvalidUserLogin" data-provider="InvalidLoginDatas" finished-at="2022-12-14T08:44:25 IST" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pasword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:25 IST" name="AfterMethods" finished-at="2022-12-14T08:44:26 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:26 IST" name="launchApp" finished-at="2022-12-14T08:44:31 IST" duration-ms="5225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyUserLogin()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:31 IST" name="VerifyUserLogin" finished-at="2022-12-14T08:44:35 IST" duration-ms="4478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:44:35 IST" name="AfterMethods" finished-at="2022-12-14T08:44:35 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.Restaurant.Testcases.VerifyUserLoginTest@54c5a2ff]" started-at="2022-12-14T08:45:15 IST" name="AfterSuite" finished-at="2022-12-14T08:45:16 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.Restaurant.Testcases.VerifyUserLoginTest -->
+      <class name="com.Restaurant.Testcases.VerifyExpenseTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:44:35 IST" name="launchApp" finished-at="2022-12-14T08:44:41 IST" duration-ms="5303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyAddExpense()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:44:41 IST" name="VerifyAddExpense" finished-at="2022-12-14T08:45:04 IST" duration-ms="23321" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Add Expense Button is not loaded expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Add Expense Button is not loaded expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.Restaurant.Testcases.VerifyExpenseTest.VerifyAddExpense(VerifyExpenseTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddExpense -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:45:04 IST" name="AfterMethods" finished-at="2022-12-14T08:45:04 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:45:04 IST" name="launchApp" finished-at="2022-12-14T08:45:10 IST" duration-ms="5833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyExpense()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:45:10 IST" name="VerifyExpense" finished-at="2022-12-14T08:45:15 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpense -->
+        <test-method is-config="true" signature="AfterMethods()[pri:0, instance:com.Restaurant.Testcases.VerifyExpenseTest@449a4f23]" started-at="2022-12-14T08:45:15 IST" name="AfterMethods" finished-at="2022-12-14T08:45:15 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethods -->
+      </class> <!-- com.Restaurant.Testcases.VerifyExpenseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

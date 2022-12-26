@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross" parallel ="tests">
+<listeners>
+<listener class-name = "com.Restaurant.Utilities.ListenersClass"/>
+</listeners>
+  <test thread-count="5" name="Test 2">
+  <parameter name="Browser" value="Chrome"></parameter>
+      <classes>
+      <class name= "com.Restaurant.Testcases.VerifyUserLoginTest"/> 
+      <class name= "com.Restaurant.Testcases.VerifyExpenseTest"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test 3">
+  <parameter name="Browser" value="Edge"></parameter>
+      <classes>
+      <class name= "com.Restaurant.Testcases.VerifyUserLoginTest"/> 
+      <class name= "com.Restaurant.Testcases.VerifyExpenseTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
